@@ -61,7 +61,7 @@ function App() {
         <h2>Encrypt</h2>
         <form>
           <input type="text" style={input} placeholder="Message" value={message} onChange={e => setMessage(e.target.value)} required></input>
-          <input type="text" style={input} placeholder="Password" value={pass} onChange={e => setPass(e.target.value)} required></input>
+          <input type="password" style={input} placeholder="Password" value={pass} onChange={e => setPass(e.target.value)} required></input>
           <button style={button} onClick={encrypt}>Encrypt</button>
           <p id="encryptedOutput">Output</p>
         </form>
@@ -69,7 +69,7 @@ function App() {
         <h2>Decrypt</h2>
         <form>
           <input type="text" style={input} placeholder="Message" value={dmessage} onChange={e => setMessage2(e.target.value)} required></input>
-          <input type="text" style={input} placeholder="Password" value={dpass} onChange={e => setPass2(e.target.value)} required></input>
+          <input type="password" style={input} placeholder="Password" value={dpass} onChange={e => setPass2(e.target.value)} required></input>
           <button style={button} onClick={decrypt}>Decrypt</button>
           <p id="decryptedOutput">Output</p>
         </form>
