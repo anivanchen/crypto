@@ -2,6 +2,7 @@
   "name": "crypto",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "crypto": "^1.0.1",
     "react": "^17.0.2",

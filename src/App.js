@@ -19,6 +19,7 @@ function App() {
     padding: "5px",
     border: "none",
     borderBottom: "1px solid black",
+    textAlign: "center",
   }
   const button = {
     color: "white",
